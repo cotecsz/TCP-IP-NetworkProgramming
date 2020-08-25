@@ -4,5 +4,8 @@ project(TCP_IP C)
 set(CMAKE_C_STANDARD 99)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY bin/ )
 
+# chapter 01 理解网络编程和套接字
 add_executable(helloserver chap01-理解网络编程和套接字/hello_server.c)
 add_executable(helloClient chap01-理解网络编程和套接字/hello_client.c)
+add_executable(lowOpen chap01-理解网络编程和套接字/low_open.c)
+add_executable(lowRead chap01-理解网络编程和套接字/low_read.c)
