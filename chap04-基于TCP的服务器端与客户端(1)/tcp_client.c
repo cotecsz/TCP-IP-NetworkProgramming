@@ -1,4 +1,4 @@
-#include "lib/common.h"
+#include "../lib/common.h"
 
 # define MESSAGE_SIZE 102400
 
