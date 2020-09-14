@@ -47,7 +47,7 @@ int accept(int sockfd, struct sockaddr* addr, socklen_t* addrlen);
 // 成功返回文件描述符，失败返回-1
 ```
 
-
+</br>
 
 ### 基于Linux的文件操作
 
@@ -105,6 +105,12 @@ ssize_t write(int fd, const void* buf, size_t nbytes);
 ssize_t read(int fd, void* buf, size_t nbytes);
 // 成功时返回接受的字节数（遇到文件末尾返回0），失败时返回-1
 ```
+
+
+
+客户端与服务器工作的核心逻辑
+
+<img src="images/image-20200908212900781.png" alt="image-20200908212900781" style="zoom:50%;" />
 
 
 
