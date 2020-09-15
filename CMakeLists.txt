@@ -19,3 +19,7 @@ add_executable(echo_server "chap04-基于TCP的服务器端与客户端(1)/echo_
 add_executable(echo_client "chap04-基于TCP的服务器端与客户端(1)/echo_client.c")
 add_executable(tcp_client "chap04-基于TCP的服务器端与客户端(1)/tcp_client.c")
 add_executable(tcp_server "chap04-基于TCP的服务器端与客户端(1)/tcp_server.c")
+
+# chapter 05 基于TCP的服务器端与客户端
+add_executable(calculator_client "chap05-基于TCP的服务器端与客户端(2)/calculator_client.c")
+add_executable(calculator_server "chap05-基于TCP的服务器端与客户端(2)/calculator_server.c")
